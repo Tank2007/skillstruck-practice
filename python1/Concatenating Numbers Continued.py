@@ -2,7 +2,11 @@
 hours = 2000
 time = 3
 print(string1.format(hours, time))'''
-#Challenge 1
-user_input = input("Number of miles ")
-user_input2 = input("Total number of miles ")
 
+
+#Challenge 1
+miles_driven_in_one_day = int(input("Number of miles your car can drive in one day: "))
+total_miles_to_destintion = int(input("Total number of miles to your destination: "))
+number_of_days = total_miles_to_destintion /miles_driven_in_one_day
+drive = "The total number of days you will need to drive there is {} "
+print(drive.format(number_of_days))
