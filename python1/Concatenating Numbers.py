@@ -8,12 +8,22 @@ integer_variable = 42
 print(string_variable.format(integer_variable))'''
 
 #Challenges
-age = 16
+'''age = 16
 birthday = "you are {} years old "
-print(birthday.format(age))
+print(birthday.format(age))'''
 
-#Challenge 2
-the_users_number = int(input())
-hours = the_users_number // 60
-minutes = the_users_number % 60
-print("It has been {} hour(s) and {} minute(s) since midnight.".format(hours, minutes))
+# #Challenge 2
+# the_users_number = int(input())
+# hours = the_users_number // 60
+# minutes = the_users_number % 60
+# print("It has been {} hour(s) and {} minute(s) since midnight.".format(hours, minutes))
+
+dollars = int(input("dollars part: "))
+cents_part = int(input("cents part: "))
+number_to_buy = int(input("How many cookies: "))
+cents = cents_part / 100
+
+cost = dollars + cents
+total_cost = cost * number_to_buy
+string1 = "The total cost of {} cookies is ${}"
+print(string1.format(number_to_buy, total_cost))
