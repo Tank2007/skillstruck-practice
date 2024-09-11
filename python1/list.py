@@ -8,7 +8,14 @@ Dictionary: a data group that is unordered, changeable and indexed.  No duplicat
 '''games = ["scp:sl", "hearts of iron iv", "fallout4", "victor vran"]
 print(games)'''
 
-candy = ["snickers",]
-pieces = [10, 4]
+'''candy = ["snickers"]
+pieces = [5, 7, 20, 11]
 print(candy)
-print(pieces)
+print(pieces)'''
+
+
+#Chalenges 
+'''friends = ["Connor", "Jon", "cleab"]
+print(friends)'''
+places = ["new york", "chiago", "cal", "up state new york", "colrado"]
+print(places)
