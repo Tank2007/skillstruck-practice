@@ -6,4 +6,4 @@ class Vacation:
 def tuesday(self):
     print("We will be hiking on Tuesday")
 
-summer = Vacation("Hawaii, 2000, Sunny")
+summer = Vacation(place="Hawaii", distance="2000", weather="Sunny")
