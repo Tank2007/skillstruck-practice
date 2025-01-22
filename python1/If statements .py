@@ -27,8 +27,11 @@ print(smallest)'''
 #print(f"The smallest number is: {smallest}")
 #Challenge 2
 
-the_user_input = int(input("pick a number "))
+'''the_user_input = int(input("pick a number "))
 if the_user_input % 2 == 0:
     print("Even")
 else:
-    print("Odd")
+    print("Odd")'''
+
+
+
