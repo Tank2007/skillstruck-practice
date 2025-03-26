@@ -1,4 +1,4 @@
-import pygame 
+'''import pygame 
 pygame.init()
 custom_title = input("Name of title")
 
@@ -17,4 +17,11 @@ while running:
     
     DISPLAY.fill(WHITE)
     DISPLAY.fill(BLACK)
-    pygame.display.flip()
+    pygame.display.flip()'''
+
+
+x1 = "20"
+
+y1 = 3
+
+a = x1 * y1
